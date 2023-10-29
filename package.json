@@ -26,6 +26,7 @@
     "update:check": "ng update",
     "dep-graph": "nx dep-graph",
     "help": "nx help",
+    "deploy": "firebase deploy --token $FIREBASE_TOKEN --non-interactive",
     "workspace-generator": "nx workspace-generator"
   },
   "private": true,
@@ -141,7 +142,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run format:check"
+      "pre-commit": "npm run format"
     }
   },
   "mikro-orm": {

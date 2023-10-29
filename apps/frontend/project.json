@@ -69,9 +69,7 @@
           "browserTarget": "frontend:build:production"
         },
         "development": {
-          "browserTarget": "frontend:build:development",
-          "proxyConfig": "apps/frontend/proxy.conf.json",
-          "disableHostCheck": true
+          "browserTarget": "frontend:build:development"
         }
       },
       "defaultConfiguration": "development"
